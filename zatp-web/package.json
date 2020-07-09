@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ivaldo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@zoomus/websdk": "^1.7.10"
+  }
 }
