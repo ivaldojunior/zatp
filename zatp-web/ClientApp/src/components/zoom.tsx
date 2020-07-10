@@ -1,17 +1,12 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import z from 'https://source.zoom.us/zoom-meeting-1.7.9.min.js';
-import to1 from '../js/tool.js';
-import vc from '../js/vconsole.min.js';
-import met from '../js/meeting.js';
 
+const Home = () => (
+	<div>
+		<h1>ZATP!</h1>
+		<p>API de integração com o ZOOM</p>
+		<p>Em breve documentação :-)</p>
+	</div>
+);
 
-const ZOOM = () => (
-    
-      <h1>Teste do ZOOM</h1>
-   
-      
-  );
-  
-  export default connect()(ZOOM);
-  
+export default connect()(Home);
