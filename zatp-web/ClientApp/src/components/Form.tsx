@@ -88,12 +88,12 @@ export class Form extends React.Component<IFormProps, IFormState> {
 	public render() {
 		const { submitSuccess, errors } = this.state;
 		return (
-			<form onSubmit={this.handleSubmit} noValidate={true}>
+			<form onSubmit={this.handleSubmit} noValidate={true} id="meeting_form">
 				<div className="container">
 					{this.props.render()}
 					<div className="form-group">
 						<button type="submit" className="btn btn-primary" disabled={this.haveErrors(errors)}>
-							Submit
+							Entrar
 						</button>
 					</div>
 					...
